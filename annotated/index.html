@@ -106,28 +106,29 @@ pour les différentes cartes de la section -->
   </div>
 </div>
 
-<!-- formulaire contact -->
-<div class="g">
-  <div class="g0">Contactez-nous</div>
-  <div class="gf">
-    <input type="text" placeholder="Nom complet" class="gi">
-    <input type="text" placeholder="Email" class="gi">
-    <input type="text" placeholder="Sujet" class="gi">
-    <textarea placeholder="Votre message..." class="gt"></textarea>
-    <button class="gb">Envoyer</button>
+<!-- formulaire contact --> <!-- Le commentaire "formulaire contact" n'est pas explicite -->
+<div class="g"> <!-- A la place de <div class="g"> mettre <section class="contact"></section> -->
+  <div class="g0">Contactez-nous</div> <!-- A la place de <div class="g0"> mettre <h2 class="contact_title"> -->
+  <div class="gf"> <!-- A la place de <div class="gf"> mettre <form class="contact_form"> -->
+    <!-- <div class="gf"></div> regroupe tous les champs mais ce n'est pas une vraie balise form -->
+    <input type="text" placeholder="Nom complet" class="gi"> <!-- A la place de type="text" mettre type="text" avec name="nom" -->
+    <input type="text" placeholder="Email" class="gi"> <!-- ERREUR : type="text" doit être type="email" + ajouter name="email" -->
+    <input type="text" placeholder="Sujet" class="gi"> <!-- A la place de <input class="gi"> mettre <input class="contact_input"> + name="sujet" -->
+    <textarea placeholder="Votre message..." class="gt"></textarea> <!-- A la place de <textarea class="gt"> mettre <textarea class="contact_textarea"> + name="message" -->
+    <button class="gb">Envoyer</button> <!-- A la place de <button class="gb"> mettre <button class="contact_btn"> -- aucun JavaScript associé -->
   </div>
 </div>
 
-<!-- bas de page -->
-<div class="h">
-  <div class="h1">DevStart Agency &copy; 2024</div>
-  <div class="h2">
-    <a href="#">Facebook</a>
-    <a href="#">Instagram</a>
-    <a href="#">LinkedIn</a>
+<!-- bas de page --> <!-- Le commentaire "bas de page" n'est pas explicite -->
+<div class="h"> <!-- A la place de <div class="h"> mettre <footer class="footer"></footer> -->
+  <!-- <div class="h"></div> organise 3 blocs : copyright, réseaux sociaux, email -->
+  <div class="h1">DevStart Agency &copy; 2024</div> <!-- A la place de <div class="h1"> mettre <div class="footer_copyright"> -- confusion avec la balise h1 -->
+  <div class="h2"> <!-- A la place de <div class="h2"> mettre <div class="footer_links"> -- confusion avec la balise h2 -->
+    <a href="#">Facebook</a> <!-- ERREUR : href="#" ne pointe nulle part, mettre la vraie URL -->
+    <a href="#">Instagram</a> <!-- ERREUR : href="#" ne pointe nulle part, mettre la vraie URL -->
+    <a href="#">LinkedIn</a> <!-- ERREUR : href="#" ne pointe nulle part, mettre la vraie URL -->
   </div>
-  <div class="h3">contact@devstart.bj</div>
+  <div class="h3">contact@devstart.bj</div> <!-- A la place de <div class="h3"> mettre <div class="footer_email"> -- confusion avec la balise h3 -->
 </div>
-
 </body>
 </html>
