@@ -1,11 +1,11 @@
-/* style general */
+/* style general */     /*absence de variable css /*
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: Arial;
+  font-family: Arial;   /*titre sans variable css /*
   color: #333;
 }
 
@@ -77,6 +77,7 @@ body {
   max-width: 480px;
   border-radius: 12px;
 }
+
 
 /* services */
 .d {
