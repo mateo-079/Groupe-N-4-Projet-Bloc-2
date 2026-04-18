@@ -237,7 +237,7 @@ Noms suggérés : .testimonial-card pour les 3 */
   margin-bottom: 36px;
 }
 
-.gf {
+.gf { /* Conteneur du formulaire, centré et en colonne */
   max-width: 600px;
   margin: 0 auto;
   display: flex;
@@ -245,7 +245,7 @@ Noms suggérés : .testimonial-card pour les 3 */
   gap: 16px;
 }
 
-.gi {
+.gi { /* Champs de saisie texte*/
   padding: 14px 16px;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -253,7 +253,7 @@ Noms suggérés : .testimonial-card pour les 3 */
   outline: none;
 }
 
-.gt {
+.gt { /* Zone de texte pour le message */
   padding: 14px 16px;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -292,14 +292,14 @@ Noms suggérés : .testimonial-card pour les 3 */
   font-size: 13px;
 }
 
-.h2 a {
+.h2 a { /* Liens vers les réseaux sociaux 
   color: #aaa;
   text-decoration: none;
   margin-left: 18px;
   font-size: 13px;
 }
 
-.h2 a:hover {
+.h2 a:hover { /* Effet hover sur les liens sociaux */
   color: white;
 }
 

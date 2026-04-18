@@ -55,18 +55,20 @@ devant l'académie.
 ## Livrables
 
 - Rapport d'analyse (PDF)
-- Présentation orale (PPTX)
 - Ce dépôt GitHub avec le code original et annoté
 
 ---
 
 ## Membres du groupe
 
-| Nom | Rôle principal |
-|-----|----------------|
-| [Prénom NOM] | ... |
-| [Prénom NOM] | ... |
-| [Prénom NOM] | ... |
+| Membre | Rôle | Sections |
+|--------|------|---------|
+| Abdou-Hakim KARIM ISSAOU | Chef de groupe | À propos |
+| Marianne Leslie JOSSE | Coordinatrice | Témoignages |
+| Hermione Adorée KPENONHOUN | Rédactrice | Header . Hero |
+| Prince-Matéo GOUNOU | Responsable Technique | Services |
+| Adonis Francis HOUENOU | Responsable Synthèse | Formulaire . Footer |
+
 
 ---
 
