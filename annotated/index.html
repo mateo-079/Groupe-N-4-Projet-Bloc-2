@@ -37,42 +37,42 @@
 </div>
 
 
-<!-- les trucs qu'on fait -->
-<div class="d">
-  <div class="d0">Ce qu'on fait</div>
+<!--Section Services. Le commentaire du stagiaire n’est pas clair. Utilisation de différentes classes ayant même fonction 
+pour les différentes cartes de la section -->
+<div class="d"> <!--classe="services"-->
+  <div class="d0">Ce qu'on fait</div> <!--Mettre ici plutôt une balise h2 ici pour le titre de la section -->
 
-  <div class="dd">
-    <div class="d1">
-      <div class="d1i">🎨</div>
-      <div class="d1t">Design</div>
-      <div class="d1p">On crée des interfaces belles et modernes adaptées à votre marque.</div>
+  <div class="dd"> <!--classe="services-grid" | Conteneur de toutes les cartes-->
+    <div class="d1"> <!--classe="service-card"-->
+      <div class="d1i">🎨</div> <!--classe="service_emoji"-->
+      <div class="d1t">Design</div> <!--classe="service_title"-->
+      <div class="d1p">On crée des interfaces belles et modernes adaptées à votre marque.</div> <!--classe="service_description"-->
     </div>
-    <div class="d2">
-      <div class="d2i">💻</div>
-      <div class="d2t">Développement</div>
-      <div class="d2p">Sites rapides, propres et bien codés pour tous les écrans.</div>
+    <div class="d2"> <!--classe="services-card"-->
+      <div class="d2i">💻</div> <!--classe="service-emoji"-->
+      <div class="d2t">Développement</div> <!--classe="service_title"-->
+      <div class="d2p">Sites rapides, propres et bien codés pour tous les écrans.</div> <!--classe="service_description"-->
     </div>
-    <div class="d3">
-      <div class="d3i">📈</div>
-      <div class="d3t">Marketing digital</div>
-      <div class="d3p">Stratégies SEO et réseaux sociaux pour booster votre visibilité.</div>
+    <div class="d3"> <!--classe="services-card"-->
+      <div class="d3i">📈</div> <!--classe="service-emoji"-->
+      <div class="d3t">Marketing digital</div> <!--classe="service_title"-->
+      <div class="d3p">Stratégies SEO et réseaux sociaux pour booster votre visibilité.</div> <!--classe="service_description"-->
     </div>
-    <div class="d4">
-      <div class="d4i">🔧</div>
-      <div class="d4t">Maintenance</div>
-      <div class="d4p">Suivi et mises à jour régulières pour que votre site reste au top.</div>
+    <div class="d4"> <!--classe="services-card"-->
+      <div class="d4i">🔧</div> <!--classe="service-emoji"-->
+      <div class="d4t">Maintenance</div> <!--classe="service_title"-->
+      <div class="d4p">Suivi et mises à jour régulières pour que votre site reste au top.</div> <!--classe="service_description"-->
     </div>
   </div>
 </div>
 
 <!--section À PROPOS  -->
-<!-- qui on est -->
-<div class="e">
-  <div class="e1">
+<div class="e"> <!--classe="about"-->
+  <div class="e1"> <!--classe="about-picture" | Image à gauche -->
     <img src="team.png" class="eimg"> <!-- pas d'attribut alt sur l'image --> 
   </div>
   <div class="e2"><!-- pas de classe spécifique pour les titres et les paragraphes, ce qui rend le CSS moins clair -->
-    <div class="e2t">À propos de nous</div>
+    <div class="e2t">À propos de nous</div> 
 
     <div class="e2p">DevStart Agency est une jeune agence fondée par des passionnés du numérique. Notre équipe de 8 personnes accompagne les entreprises dans leur transformation digitale depuis 2021.</div>
     
@@ -82,24 +82,25 @@
   </div>
 </div>
 
-<!-- les clients qui parlent -->
-<div class="f">
-  <div class="f0">Ils nous font confiance</div>
-  <div class="ff">
+<!-- Section Témoignages --> 
+<!--Utilisation de différentes fonctions qui font exactement la même chose au d’une seule pour toutes les cartes-->
+<div class="f"> <!--Nom de classe "testimonials"-->
+  <div class="f0">Ils nous font confiance</div> <!--Utiliser une balise h2 pour le titre de la section plutôt qu'une div avec une classe peu explicite -->
+  <div class="ff"> <!--Nom de classe "testimonials-grid" | Conteneur de toutes les cartes-->
 
-    <div class="f1">
-      <div class="f1t">"Excellent travail, livré en temps et en heure. Notre site a doublé notre taux de conversion."</div>
-      <div class="f1n">— Koffi A., Directeur, BenTech</div>
+    <div class="f1"> <!--Nom de classe "testimonial-card" | Carte de témoignage -->
+      <div class="f1t">"Excellent travail, livré en temps et en heure. Notre site a doublé notre taux de conversion."</div> <!--Nom de classe "testimonial-text"-->
+      <div class="f1n">— Koffi A., Directeur, BenTech</div> <!--Nom de classe "testimonial-name"-->
     </div>
 
-    <div class="f2">
-      <div class="f2t">"Une équipe sérieuse et à l'écoute. Je recommande sans hésiter."</div>
-      <div class="f2n">— Mariame D., CEO, ModoShop</div>
+    <div class="f2"> <!--Nom de classe "testimonial-card"-->
+      <div class="f2t">"Une équipe sérieuse et à l'écoute. Je recommande sans hésiter."</div> <!--Nom de classe "testimonial-text"-->
+      <div class="f2n">— Mariame D., CEO, ModoShop</div> <!--Nom de classe "testimonial-name"-->
     </div>
 
-    <div class="f3">
-      <div class="f3t">"Ils ont compris notre vision dès le premier rendez-vous. Résultat impeccable."</div>
-      <div class="f3n">— Romuald S., Fondateur, GreenFood Bénin</div>
+    <div class="f3"> <!--Nom de classe "testimonial-card"-->
+      <div class="f3t">"Ils ont compris notre vision dès le premier rendez-vous. Résultat impeccable."</div> <!--Nom de classe "testimonial-text"-->
+      <div class="f3n">— Romuald S., Fondateur, GreenFood Bénin</div> <!--Nom de classe "testimonial-name"-->
     </div>
 
   </div>

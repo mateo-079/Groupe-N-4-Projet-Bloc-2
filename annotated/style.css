@@ -18,7 +18,7 @@ body {
   align-items: center;
 }
 
-.b1a {
+.b1a { /* Nom de l'agence dans la navigation | Nom suggéré : .navbar-logo */
   color: white;
   font-size: 22px;
   font-weight: bold;
@@ -98,6 +98,11 @@ body {
   gap: 24px;
 }
 
+/* Les 4 cartes de service.
+Problème : 4 classes différentes pour le même style.
+Une seule classe commune (.service-card) aurait suffi.
+Noms suggérés : .service-card pour toutes les cartes */
+
 .d1, .d2, .d3, .d4 {
   flex: 1;
   background: #f4f4f4;
@@ -106,19 +111,20 @@ body {
   text-align: center;
 }
 
+/* Icônes des cartes (emojis) | Nom suggéré : .service-icon */
 .d1i, .d2i, .d3i, .d4i {
   font-size: 36px;
   margin-bottom: 14px;
 }
 
-.d1t, .d2t, .d3t, .d4t {
+.d1t, .d2t, .d3t, .d4t {  /* Titres des cartes | Nom suggéré : .service-title */
   font-size: 17px;
   font-weight: bold;
   color: #1a1a2e;
   margin-bottom: 10px;
 }
 
-.d1p, .d2p, .d3p, .d4p {
+.d1p, .d2p, .d3p, .d4p { /* Descriptions des cartes | Nom suggéré : .service-description */
   font-size: 14px;
   color: #666;
   line-height: 1.6;
@@ -178,7 +184,7 @@ body {
   background: #1a1a2e;
 }
 
-.f0 {
+.f0 { /* Texte de la citation */
   font-size: 28px;
   font-weight: bold;
   color: white;
@@ -191,6 +197,10 @@ body {
   gap: 24px;
 }
 
+/* Les 3 cartes témoignages.
+Même problème que les cartes services : 3 classes identiques.
+Une seule classe (.testimonial-card) aurait suffi.
+Noms suggérés : .testimonial-card pour les 3 */
 .f1, .f2, .f3 {
   flex: 1;
   background: #16213e;
@@ -199,7 +209,7 @@ body {
   border-left: 4px solid #e94560;
 }
 
-.f1t, .f2t, .f3t {
+.f1t, .f2t, .f3t { /* Nom du client*/
   font-size: 14px;
   color: #ccc;
   line-height: 1.7;
